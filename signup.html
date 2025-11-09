@@ -1,23 +1,36 @@
+<!-- registration page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sign Up</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- linking the main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="auth-container">
     <div class="auth-box">
-      <h2>Sign Up</h2>
-      <input type="text" id="signupName" placeholder="Full Name">
-      <input type="email" id="signupEmail" placeholder="Email">
-      <input type="password" id="signupPassword" placeholder="Password">
-      <input type="password" id="signupConfirmPassword" placeholder="Confirm Password">
+      <h1 class="heading">Event Scheduler</h1>
+      <h2>Create Account</h2>
+
+      <!-- sign-up input fields -->
+      <input type="text" id="signupName" placeholder="Full name" />
+      <input type="email" id="signupEmail" placeholder="Email address" />
+      <input type="password" id="signupPassword" placeholder="Create password" />
+      <input type="password" id="signupConfirmPassword" placeholder="Confirm password" />
+
+      <!-- sign-up button -->
       <button id="signupBtn">Sign Up</button>
-      <p>Already have an account? <a href="index.html">Login</a></p>
+
+      <!-- link to login page -->
+      <p>Already have an account? <a href="index.html">Login here</a></p>
+
     </div>
   </div>
+
+  <!-- main JS file -->
   <script src="script.js"></script>
 </body>
 </html>
